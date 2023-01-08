@@ -1,0 +1,10 @@
+
+services:
+  postgres:
+    image: postgres:latest
+    environment:
+      - POSTGRES_DB=nest
+      - POSTGRES_USER=mulugeta
+      - POSTGRES_PASSWORD=123
+    ports:
+      - 5432:5432
