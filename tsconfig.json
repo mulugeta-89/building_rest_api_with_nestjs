@@ -12,6 +12,7 @@
     "baseUrl": "./",
     "incremental": true,
     "skipLibCheck": true,
+    "moduleResolution": "node",
     "strictNullChecks": false,
     "noImplicitAny": false,
     "strictBindCallApply": false,
